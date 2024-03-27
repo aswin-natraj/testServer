@@ -11,7 +11,7 @@ Listening...
 =======\n`;
 
 app.get("/", (req, res) => {
-  res.send("hii");
+  res.json({ message: "hii" });
 });
 
 app.listen(4332, (err) => {
